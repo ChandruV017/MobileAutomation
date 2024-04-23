@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/vchandru/IdeaProjects/mobileAutomation_ChandruV/src/test/java/org/mobileAutomation/testCasses/TestCase.java">
+        <classes>
+            <class name="org.mobileAutomation.testCasses.TestCase">
+                <methods>
+                    <include name="TC0001"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
