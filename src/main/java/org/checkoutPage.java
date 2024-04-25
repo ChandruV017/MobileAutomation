@@ -9,7 +9,8 @@ import java.io.File;
 import java.io.IOException;
 
 public class checkoutPage extends baseClass {
-    public checkoutPage() {
+    public checkoutPage() throws InterruptedException {
+        Thread.sleep(1000);
     }
 
     public void screenShot(String fileName) throws IOException {

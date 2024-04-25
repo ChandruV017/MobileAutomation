@@ -8,7 +8,7 @@ public class placeOrderPage extends baseClass {
         this.driver = driver;
     }
 
-    public checkoutPage placeOrderButton() {
+    public checkoutPage placeOrderButton() throws InterruptedException {
         driver.findElement(AppiumBy.accessibilityId("Place Order button")).click();
         return new checkoutPage();
     }
